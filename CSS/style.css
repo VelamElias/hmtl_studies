@@ -22,7 +22,7 @@ img{
 
 .img_change {
     width: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 34px;
 }
 
 .navbar{
@@ -59,5 +59,10 @@ img{
 
 .outrosPersona{
     background-color: black;
-    color: white;
+}
+
+.digital-innovation{
+    color: rgba(18, 44, 18, 0.795);
+    background-color: rgba(54, 25, 14, 0.521);
+    
 }
