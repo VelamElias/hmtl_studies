@@ -6,8 +6,24 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
-        <button type="button">
-        
+        <!--Para adicionar ação ao bota onclick--> 
+        <button type="button" onclick="agradece()">Clique Aqui</button>
+        <!--redireciona em nova aba ao clickar-->
+        <p id="agradecimento" onclick="localRedirect()"></p>
+        <!--redireciona na mesma aba ao clickar-->
+        <button type="button" onclick="redirect()">Redirecionamento</button>
+        <!--modifica o texto o qual o mouse esta sobreposto-->
+        <p id="mouseMove" onmousemove="passaMouse(this)" onmouseout="voltar(this)">Passe o mouse</p>
+        <!--This permite usar as funcoes passaMouse e Voltar para mais de um id sem criar novas funções-->
+        <p id="mouseMove2" onmousemove="passaMouse(this)" onmouseout="voltar(this)">Passe o mouse</p>
+
+        <select onclick="mudaFuncao(this)" >
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+        <p id="valor" onclick="Idioma()" >Numero em inglês</p>
+    
     </body>
 
 </html>
